@@ -803,7 +803,7 @@
 }
 .fa-linkedin:before {
   content: "\f0e1";
-  color: black;
+  color:white;
 }
 .fa-rotate-left:before,
 .fa-undo:before {
@@ -952,7 +952,7 @@
 }
 .fa-github-alt:before {
   content: "\f113";
-  color:black;
+  color:rgb(255, 255, 255);
 }
 .fa-folder-o:before {
   content: "\f114";
@@ -1219,7 +1219,7 @@
 }
 .fa-instagram:before {
   content: "\f16d";
-  color:black;
+  color:rgb(255, 255, 255);
 }
 .fa-flickr:before {
   content: "\f16e";
