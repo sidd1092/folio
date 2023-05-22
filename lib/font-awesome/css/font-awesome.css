@@ -951,6 +951,7 @@
 }
 .fa-github-alt:before {
   content: "\f113";
+  color:black;
 }
 .fa-folder-o:before {
   content: "\f114";

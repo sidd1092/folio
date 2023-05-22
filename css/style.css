@@ -9,8 +9,11 @@
 //--//-->   STYLES GENERALES
 ======================================*/
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 body {
-  background-color: #0c0c0d;
+  background-color: #000000;
   color: #1c1313;
 }
 
@@ -97,7 +100,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0c0c0d;
+  background-color: #000000;
 }
 
 .overlay-mf {
@@ -428,7 +431,7 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -466,12 +469,18 @@ a:hover {
   width: 35px;
 }
 
+
+
+
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #fff;
+  background-color: #7070705b;
+  
+
+
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #fff;
+  color: #1a1919;
 }
 
 .navbar-b.navbar-trans .show > .nav-link,
@@ -483,9 +492,17 @@ a:hover {
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #fff;
+  background-color: #9d9b9bcb;
   padding-top: 15px;
   padding-bottom: 15px;
+
+  background-color: white;
+        background: linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.3));
+    z-index: 15;
+    backdrop-filter: blur(2rem);
 }
 
 .navbar-b.navbar-reduce .nav-link {
